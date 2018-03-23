@@ -1,0 +1,202 @@
+03-22 10:05:33.479 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Preparing services description
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: --------------- ====== Printing peripheral content ====== ---------------
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: PERIPHERAL ADDRESS: 5C:31:3E:BF:F7:34
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: PERIPHERAL NAME: SensorTag
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -------------------------------------------------------------------------
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Generic Access (00001800-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 1
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Device Name (00002a00-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Appearance (00002a01-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Peripheral Privacy Flag (00002a02-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Reconnection Address (00002a03-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ WRITE ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Peripheral Preferred Connection Parameters (00002a04-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Generic Attribute (00001801-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 12
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Service Changed (00002a05-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ INDICATE ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Device Information (0000180a-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 16
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* System ID (00002a23-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Model Number String (00002a24-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Serial Number String (00002a25-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Firmware Revision String (00002a26-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Hardware Revision String (00002a27-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Software Revision String (00002a28-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Manufacturer Name String (00002a29-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.512 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* IEEE 11073-20601 Regulatory Certification Data List (00002a2a-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* PnP ID (00002a50-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+
+
+
+
+
+
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Unknown service (f000aa00-0451-4000-b000-000000000000)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 35
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa01-0451-4000-b000-000000000000)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ NOTIFY ]
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa02-0451-4000-b000-000000000000)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa03-0451-4000-b000-000000000000)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Unknown service (f000aa10-0451-4000-b000-000000000000)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 46
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa11-0451-4000-b000-000000000000)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ NOTIFY ]
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa12-0451-4000-b000-000000000000)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa13-0451-4000-b000-000000000000)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.513 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Unknown service (f000aa20-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 57
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa21-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ NOTIFY ]
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa22-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa23-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Unknown service (f000aa30-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 68
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa31-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ NOTIFY ]
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa32-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa33-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Unknown service (f000aa40-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 79
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa41-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ NOTIFY ]
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa42-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa44-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa43-0451-4000-b000-000000000000)
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.514 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Unknown service (f000aa50-0451-4000-b000-000000000000)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 94
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa51-0451-4000-b000-000000000000)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ NOTIFY ]
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa52-0451-4000-b000-000000000000)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa53-0451-4000-b000-000000000000)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Unknown service (0000ffe0-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 105
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (0000ffe1-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ NOTIFY ]
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Unknown service (f000aa60-0451-4000-b000-000000000000)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 110
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa61-0451-4000-b000-000000000000)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ ]
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000aa62-0451-4000-b000-000000000000)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ WRITE ]
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Unknown service (f000ccc0-0451-4000-b000-000000000000)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 117
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000ccc1-0451-4000-b000-000000000000)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ READ NOTIFY ]
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000ccc2-0451-4000-b000-000000000000)
+03-22 10:05:33.515 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ WRITE ]
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000ccc3-0451-4000-b000-000000000000)
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ WRITE ]
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Primary Service - Unknown service (f000ffc0-0451-4000-b000-000000000000)
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: Instance ID: 128
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: -> Characteristics:
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000ffc1-0451-4000-b000-000000000000)
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ WRITE_NO_RESPONSE WRITE NOTIFY ]
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	* Unknown characteristic (f000ffc2-0451-4000-b000-000000000000)
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  Properties: [ WRITE_NO_RESPONSE WRITE NOTIFY ]
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 	  -> Descriptors:
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Client Characteristic Configuration (00002902-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: 		* Characteristic User Description (00002901-0000-1000-8000-00805f9b34fb)
+03-22 10:05:33.516 411-2415/com.polidea.rxandroidble.sample V/RxBle#ServiceDiscoveryOperation: --------------- ====== Finished peripheral content ====== ---------------

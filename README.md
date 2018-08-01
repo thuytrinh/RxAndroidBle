@@ -1,4 +1,4 @@
-# RxAndroidBle [![Build Status](https://travis-ci.org/Polidea/RxAndroidBle.svg?branch=master)](https://travis-ci.org/Polidea/RxAndroidBle) [![Maven Central](https://img.shields.io/maven-central/v/com/polidea/rxandroidble2/rxandroidble.svg)](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.polidea.rxandroidble2%22%20AND%20a%3A%22rxandroidble%22)
+# RxAndroidBle [![Build Status](https://travis-ci.org/Polidea/RxAndroidBle.svg?branch=master)](https://travis-ci.org/Polidea/RxAndroidBle) [![Maven Central](https://img.shields.io/maven-central/v/com.polidea.rxandroidble2/rxandroidble.svg)](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.polidea.rxandroidble2%22%20AND%20a%3A%22rxandroidble%22)
 <p align="center">
   <img alt="Tailored software services including concept, design, development and testing" src="site/logo_android.png" />
 </p>
@@ -388,6 +388,7 @@ When submitting code, please make every effort to follow existing conventions an
 
 ## FAQ
 If you encounter seemingly incorrect behaviour in your application that is regarding this library please check the below list of Frequently Asked Questions:
+- [Cannot connect](https://github.com/Polidea/RxAndroidBle/wiki/FAQ:-Cannot-connect)
 - [UndeliverableException](https://github.com/Polidea/RxAndroidBle/wiki/FAQ:-UndeliverableException)
 
 ## Support
